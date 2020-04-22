@@ -1,0 +1,116 @@
+/* Generales */
+.h1-strong {
+  font-size: 35px;
+  font-weight: bold;
+  margin-left: 13px;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.active {
+  /* border-bottom: 3px solid yellow; */
+  background: #cc1717;
+}
+
+/* Cabecera */
+.navigation {
+  padding: 0 !important;
+  border-radius: 0 !important;
+}
+
+.navigation .navbar {
+  background: #e53c37 !important;
+  border-radius: 0 !important;
+  border: none;
+}
+
+/* Aplica estilos a todo lo que hay adentro */
+.navigation .navbar * {
+  color: white !important;
+}
+
+.navigation .navbar a:hover {
+  background: #cc1717 !important;
+}
+
+.navigation .navbar .dropdown-menu * {
+  color: black !important;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus {
+  background: #cc1717 !important;
+}
+
+.navigation .navbar .dropdown-menu a:hover {
+  background: #eee !important;
+}
+
+.jumbotron {
+  padding: 25px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.jumbotron a {
+  margin-right: 5px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.navigation .avatar {
+  align-items: center;
+  width: 38px;
+  height: auto;
+  overflow: hidden;
+  margin-top: 7%;
+}
+
+.avatar img {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+
+.item-user .image-user {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  border-radius: 100px;
+  overflow: hidden;
+  margin-right: 15px;
+}
+
+.item-user .image-user img {
+  width: 120px;
+}
+
+.item-user .user-name {
+  margin-top: 10px;
+}
+
+.item-user .image-user .name-surname a {
+  color: #969393;
+  margin: 15px 0 0 0;
+}
+
+.item-user .image-user .nickname {
+  color: #969393;
+  margin: 15px 0 0 0;
+}
+
+.item-user .user-name .name-surname a {
+  color: #555;
+  font-weight: bold;
+} 
+
+/* Mobile */
+@media (min-width: 320px) and (max-width: 480px) {
+  .navigation .navbar {
+    background: #e53c37 !important;
+    /* background: #09708f !important; */
+  }
+}
